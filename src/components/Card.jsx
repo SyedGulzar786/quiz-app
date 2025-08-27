@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Card({ age = 999, name = "username" }) {
-    let count = 0;
+    let [count, setCount] = useState(0)
     function handleClick() {
         console.log("clickMe")
-        console.log("button clicked", count++);
+setCount(count + 1)
     }
     return (
         <div>
