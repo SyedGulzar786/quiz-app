@@ -4,7 +4,7 @@ function App() {
 
   return (
  <>
- <Card />
+ <Card name={"abc"} age={123} />
  </>
   )
 }
