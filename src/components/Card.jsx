@@ -5,6 +5,12 @@ function Card({ age = 999, name = "username" }) {
     function handleClick() {
         console.log("clickMe")
 setCount(count + 1)
+setCount(count + 1)
+setCount(count + 1)
+setCount(count + 1)
+setCount(count + 1)
+setCount(count + 1)
+setCount(count + 1)
     }
     return (
         <div>
