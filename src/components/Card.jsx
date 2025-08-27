@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Card(props) {
+function Card({age, name}) {
   return (
  <div>
-    name: {props.name}
+    name: {name}
     <br />
-    age: {props.age}
+    age: {age}
  </div>
   )
 }
