@@ -7,9 +7,17 @@ function Card({theme, setTheme}) {
     return (
         <div>
             <p>{theme}</p>
-            <button onClick={handleClick}>Click Me</button>
+            <button className="abcd" onClick={handleClick}>Click Me</button>
         </div>
     )
 }
 
 export default Card
+
+
+
+// class name {
+//     constructor(parameters) {
+        
+//     }
+// }
