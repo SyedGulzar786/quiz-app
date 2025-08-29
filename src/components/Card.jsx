@@ -1,20 +1,12 @@
-import React, { useState } from 'react'
 
-function Card({ age = 999, name = "username" }) {
-    let [count, setCount] = useState(0)
+function Card({theme, setTheme}) {
     function handleClick() {
-        console.log("clickMe")
-setCount(prev => prev + 1)
-setCount(prev => prev + 1)
-setCount(prev => prev + 1)
-setCount(prev => prev + 1)
-setCount(prev => prev + 1)
-setCount(prev => prev + 1)
-setCount(prev => prev + 1)
+    setTheme(theme === "dark" ? "light" : "dark")
+    // setTheme("light")
     }
     return (
         <div>
-            <p>{count}</p>
+            <p>{theme}</p>
             <button onClick={handleClick}>Click Me</button>
         </div>
     )
